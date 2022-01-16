@@ -1,4 +1,4 @@
-import { questions } from "./questions";
+import { questions } from "./questions.js";
 
 const test = document.getElementById("test");
 const submitBtn = document.createElement("button");
