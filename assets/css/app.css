@@ -1,0 +1,119 @@
+body {
+  color: var(--gray-800);
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+}
+
+.steve-is-wrong {
+  color: red;
+}
+
+.block {
+  display: block;
+}
+
+/* Header styles */
+
+header {
+  background: var(--primary-900);
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin: 0.5rem 0 0 0;
+  color: var(--primary-300);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score {
+  display: none;
+}
+
+.percent {
+  margin-top: 5px;
+  font-size: 2rem;
+}
+
+/* Main section styles */
+
+.section-title {
+  color: var(--gray-900);
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.section-questions {
+  padding-left: 0;
+  margin-left: 20px;
+  margin-top: 2rem;
+}
+
+.section-questions li {
+  margin-top: 1rem;
+  padding-left: 9rem;
+  position: relative;
+}
+
+.section-questions label {
+  cursor: pointer;
+}
+
+.section-questions input {
+  width: 7.8rem;
+  position: absolute;
+  top: 0;
+  left: 0.2rem;
+  border-width: 0;
+  background: transparent;
+  color: currentColor;
+}
+
+.section-questions input:focus {
+  color: var(--gray-900);
+}
+
+.section-questions input:focus {
+  outline-offset: 0.3rem;
+  outline-color: var(--primary-600);
+}
+
+/* answer line before question line item */
+.section-questions li:before {
+  content: "";
+  position: absolute;
+  width: 8rem;
+  border-bottom: 1px solid;
+  left: 0.2rem;
+  top: 1.1rem;
+}
+
+/* Footer styles */
+
+footer {
+  margin-top: 3rem;
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--gray-600);
+  border-top: 1px solid var(--gray-200);
+}
+
+footer p {
+  font-size: 0.8rem;
+  margin: 0;
+}
